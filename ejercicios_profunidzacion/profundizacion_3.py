@@ -38,3 +38,16 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+
+# Nombre completo
+print('Ingrese por consola su nombre completo:')
+nombre_completo = str(input())
+
+# Todas letras en minusculas
+print('El nombre completo en minusculas es:', nombre_completo.lower())
+
+# Todas letras en mayusculas
+print('El nombre completo en mayusculas es:', nombre_completo.upper())
+
+# Solo la primera letra del nombre en mayúscula
+print('El nombre con la primera letra en mayúscula:', nombre_completo.capitalize())
